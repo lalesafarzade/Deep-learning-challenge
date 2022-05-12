@@ -1,4 +1,4 @@
-# Deep Learning Homework: Charity Funding Predictor
+# Deep Learning Challenge: Charity Funding Predictor
 
 ## Background
 
@@ -18,13 +18,10 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
-## Instructions
+
 
 ### Step 1: Preprocess the data
 
-Using your knowledge of Pandas and the Scikit-Learn’s `StandardScaler()`, you’ll need to preprocess the dataset in order to compile, train, and evaluate the neural network model later in Step 2
-
-Using the information we have provided in the starter code, follow the instructions to complete the preprocessing steps.
 
 1. Read in the charity_data.csv to a Pandas DataFrame, and be sure to identify the following in your dataset:
   * What variable(s) are considered the target(s) for your model?
@@ -36,8 +33,6 @@ Using the information we have provided in the starter code, follow the instructi
 7. Use `pd.get_dummies()` to encode categorical variables
 
 ### Step 2: Compile, Train, and Evaluate the Model
-
-Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
 
 1. Continue using the jupter notebook where you’ve already performed the preprocessing steps from Step 1.
 2. Create a neural network model by assigning the number of input features and nodes for each layer using Tensorflow Keras.
@@ -52,9 +47,6 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
 ### Step 3: Optimize the Model
 
-Using your knowledge of TensorFlow, optimize your model in order to achieve a target predictive accuracy higher than 75%. If you can't achieve an accuracy higher than 75%, you'll need to make at least three attempts to do so.
-
-Optimize your model in order to achieve a target predictive accuracy higher than 75% by using any or all of the following:
 
 * Adjusting the input data to ensure that there are no variables or outliers that are causing confusion in the model, such as:
   * Dropping more or fewer columns.
@@ -65,19 +57,7 @@ Optimize your model in order to achieve a target predictive accuracy higher than
 * Using different activation functions for the hidden layers.
 * Adding or reducing the number of epochs to the training regimen.
 
-**NOTE**: You will not lose points if your model does not achieve target performance, as long as you make three attempts at optimizing the model in your jupyter notebook.
-
-1. Create a new Jupyter Notebook file and name it `AlphabetSoupCharity_Optimzation.ipynb`.
-2. Import your dependencies, and read in the `charity_data.csv` to a Pandas DataFrame.
-3. Preprocess the dataset like you did in Step 1, taking into account any modifications to optimize the model.
-4. Design a neural network model, taking into account any modifications that will optimize the model to achieve higher than 75% accuracy.
-5. Save and export your results to an HDF5 file, and name it `AlphabetSoupCharity_Optimization.h5`.
-
 ### Step 4: Write a Report on the Neural Network Model
-
-For this part of the Challenge, you’ll write a report on the performance of the deep learning model you created for AlphabetSoup.
-
-The report should contain the following:
 
 1. **Overview** of the analysis: Explain the purpose of this analysis.
 
